@@ -1,0 +1,111 @@
+/*reset*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+h1,h2,h3,h4{
+color: #333;
+}
+p, label{
+color:black
+
+}
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid#ccc;
+    padding: 10px 0px;
+}
+input[type=text],input[type=number],input[type=date],input[type=file]{
+ width: 400px;
+}
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+/*cabeçalho*/
+.header{
+
+    height: 60px;
+    padding: 20px;
+    background-color: green;
+}
+.header h3{
+color:white;
+margin-top: 0;
+}
+
+/*container*/
+.form-container{
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 60%;
+
+}
+.form-header {
+    border-bottom: 1px solid;
+    height: 45px
+}
+.form-header p{
+color: rgb(3, 3, 3);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+text-transform: uppercase;
+line-height: 45px;
+border-bottom: double;
+
+}
+
+/*corpo*/
+.form-body{
+
+padding: 30px;
+
+}
+.form-title{
+margin: 0;
+
+}
+.required-f{
+    color: red
+}
+
+.box-input{
+
+margin-bottom: 40px;
+
+}
+.block{
+
+   display: block;
+}
+.option_box{
+display: inline-block;
+margin-right: 30px;
+}
+.opt-list{
+
+list-style: none;
+}
+.btn-submit{
+    border: 2px solid ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+.btn-submit:hover{
+    background-color:green;
+    border-color: black;
+    color: white;
+
+}
+
